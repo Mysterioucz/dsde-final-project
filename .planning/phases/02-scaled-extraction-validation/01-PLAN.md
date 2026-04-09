@@ -26,6 +26,17 @@ Create the main loop that iterates over all 250+ PDFs, invokes Typhoon OCR via A
 </task>
 
 <task>
+  <description>Implement OpenCV Grid Detection for Page Selection</description>
+  <action>Write a preprocessing function in the notebook that uses `pdf2image` to load all pages of a given PDF. Convert each page to grayscale, apply thresholding/edge detection, and use OpenCV (`cv2`) morphological operations (detecting horizontal and vertical lines) to score the grid density of each page. The function MUST return the image with the highest relative score within that specific PDF document (even if the absolute score is low), ensuring no station is skipped entirely. This selected image is sent to the Typhoon OCR API, preventing noisy cover pages from wasting API limits.</action>
+  <read_first>["notebooks/02_scaled_extraction.ipynb"]</read_first>
+  <acceptance_criteria>
+    - Preprocessing function exists using `cv2` to detect line structures.
+    - Function scores every page in a PDF and selects the single highest-scoring page.
+    - No PDF is skipped due to a strict absolute low score threshold; the highest relative score per PDF always wins.
+  </acceptance_criteria>
+</task>
+
+<task>
   <description>Implement Error Logging (D-02)</description>
   <action>In the main extraction loop, wrap the Typhoon API call and text extraction logic in a try-except block. If an extraction fails, do NOT crash. Append the failed `pdf_path` and `error_reason` to a Python list/dict `failed_extractions`. At the end of the cell, write this list to `logs/failed_extractions.json`.</action>
   <read_first>["notebooks/02_scaled_extraction.ipynb"]</read_first>
@@ -41,5 +52,6 @@ Create the main loop that iterates over all 250+ PDFs, invokes Typhoon OCR via A
 - Manually trigger an error (e.g. bad API key) and verify it skips the file but continues the loop and writes to `logs/failed_extractions.json`.
 
 ## must_haves
-- [ ] Throttles Typhoon OCR API calls to 20/min.
+- [ ] Uses OpenCV grid detection to select the best page dynamically based on relative score.
+- [ ] Throttles Typhoon OCR API calls to respect limits (20/min and 2/sec).
 - [ ] Catches errors and logs them to a structured file without crashing.

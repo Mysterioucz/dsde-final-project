@@ -1,0 +1,82 @@
+{
+  "run_started_at": "2026-04-09T12:27:30.056387+00:00",
+  "run_finished_at": "2026-04-09T12:55:04.300395+00:00",
+  "total_processed": 133,
+  "retry_pass2_count": 9,
+  "retry_recovered": 3,
+  "total_failed": 6,
+  "failed_extractions": [
+    {
+      "pdf_path": "/home/chatrin/Documents/Chat/CU/Year-3/2110446_DSDE_2025s2/final-project/source/เขตเลือกตั้งที่ 2/อำเภอบ้านไร่/ตำบลทัพหลวง/หน่วยเลือกตั้งที่ 12/ส.ส.5ทับ18 12.pdf",
+      "district": "อำเภอบ้านไร่",
+      "subdistrict": "ตำบลทัพหลวง",
+      "station": "หน่วยเลือกตั้งที่ 12",
+      "error_reason": "Typhoon OCR timed out after 20s",
+      "error_type": "TimeoutError",
+      "timestamp": "2026-04-09T12:28:14.430357+00:00",
+      "retry_error_reason": "Typhoon OCR timed out after 20s",
+      "retry_error_type": "TimeoutError",
+      "retry_timestamp": "2026-04-09T12:52:37.092571+00:00"
+    },
+    {
+      "pdf_path": "/home/chatrin/Documents/Chat/CU/Year-3/2110446_DSDE_2025s2/final-project/source/เขตเลือกตั้งที่ 2/อำเภอบ้านไร่/ตำบลทัพหลวง/หน่วยเลือกตั้งที่ 3/ส.ส.5ทับ18 3.pdf",
+      "district": "อำเภอบ้านไร่",
+      "subdistrict": "ตำบลทัพหลวง",
+      "station": "หน่วยเลือกตั้งที่ 3",
+      "error_reason": "Typhoon OCR timed out after 20s",
+      "error_type": "TimeoutError",
+      "timestamp": "2026-04-09T12:29:11.462949+00:00",
+      "retry_error_reason": "Typhoon OCR timed out after 20s",
+      "retry_error_type": "TimeoutError",
+      "retry_timestamp": "2026-04-09T12:53:00.161533+00:00"
+    },
+    {
+      "pdf_path": "/home/chatrin/Documents/Chat/CU/Year-3/2110446_DSDE_2025s2/final-project/source/เขตเลือกตั้งที่ 2/อำเภอบ้านไร่/ตำบลทัพหลวง/หน่วยเลือกตั้งที่ 7/ส.ส. 5ทับ18  7.pdf",
+      "district": "อำเภอบ้านไร่",
+      "subdistrict": "ตำบลทัพหลวง",
+      "station": "หน่วยเลือกตั้งที่ 7",
+      "error_reason": "Typhoon OCR timed out after 20s",
+      "error_type": "TimeoutError",
+      "timestamp": "2026-04-09T12:30:07.681432+00:00",
+      "retry_error_reason": "Typhoon OCR timed out after 20s",
+      "retry_error_type": "TimeoutError",
+      "retry_timestamp": "2026-04-09T12:53:32.871962+00:00"
+    },
+    {
+      "pdf_path": "/home/chatrin/Documents/Chat/CU/Year-3/2110446_DSDE_2025s2/final-project/source/เขตเลือกตั้งที่ 2/อำเภอบ้านไร่/ตำบลบ้านบึง/หน่วยเลือกตั้งที่ 2/ส.ส.5ทับ18.pdf",
+      "district": "อำเภอบ้านไร่",
+      "subdistrict": "ตำบลบ้านบึง",
+      "station": "หน่วยเลือกตั้งที่ 2",
+      "error_reason": "Typhoon OCR timed out after 20s",
+      "error_type": "TimeoutError",
+      "timestamp": "2026-04-09T12:31:09.935395+00:00",
+      "retry_error_reason": "Typhoon OCR timed out after 20s",
+      "retry_error_type": "TimeoutError",
+      "retry_timestamp": "2026-04-09T12:53:55.962092+00:00"
+    },
+    {
+      "pdf_path": "/home/chatrin/Documents/Chat/CU/Year-3/2110446_DSDE_2025s2/final-project/source/เขตเลือกตั้งที่ 2/อำเภอบ้านไร่/ตำบลหนองบ่มกล้วย/หน่วยเลือกตั้งที่ 7/สส 5ทับ18 หนองบ่ม 7.pdf",
+      "district": "อำเภอบ้านไร่",
+      "subdistrict": "ตำบลหนองบ่มกล้วย",
+      "station": "หน่วยเลือกตั้งที่ 7",
+      "error_reason": "Typhoon OCR timed out after 20s",
+      "error_type": "TimeoutError",
+      "timestamp": "2026-04-09T12:41:14.271344+00:00",
+      "retry_error_reason": "Typhoon OCR timed out after 20s",
+      "retry_error_type": "TimeoutError",
+      "retry_timestamp": "2026-04-09T12:54:38.224079+00:00"
+    },
+    {
+      "pdf_path": "/home/chatrin/Documents/Chat/CU/Year-3/2110446_DSDE_2025s2/final-project/source/เขตเลือกตั้งที่ 2/อำเภอบ้านไร่/ตำบลหูช้าง/หน่วยเลือกตั้งที่ 3/ส.ส.5ทับ18.pdf",
+      "district": "อำเภอบ้านไร่",
+      "subdistrict": "ตำบลหูช้าง",
+      "station": "หน่วยเลือกตั้งที่ 3",
+      "error_reason": "Typhoon OCR timed out after 20s",
+      "error_type": "TimeoutError",
+      "timestamp": "2026-04-09T12:42:38.481866+00:00",
+      "retry_error_reason": "Typhoon OCR timed out after 20s",
+      "retry_error_type": "TimeoutError",
+      "retry_timestamp": "2026-04-09T12:55:01.299210+00:00"
+    }
+  ]
+}
