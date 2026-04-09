@@ -7,10 +7,10 @@
 
 ### Data Prep Pipeline (Component 1)
 
-- [ ] **EXTR-01**: Pipeline iterates recursively through target constituency directories to locate raw PDF files.
-- [ ] **EXTR-02**: Pipeline implemented completely within a Jupyter Notebook (`.ipynb`).
-- [ ] **EXTR-03**: Pipeline converts PDF pages into readable images (via tools like `pdf2image`).
-- [ ] **EXTR-04**: OCR engine selection prioritizes (1) Typhoon OCR (Thai specialized), (2) PaddleOCR, then (3) Tesseract.
+- [x] **EXTR-01**: Pipeline iterates recursively through target constituency directories to locate raw PDF files.
+- [x] **EXTR-02**: Pipeline implemented completely within a Jupyter Notebook (`.ipynb`).
+- [x] **EXTR-03**: Pipeline converts PDF pages into readable images (via tools like `pdf2image`).
+- [x] **EXTR-04**: OCR engine selection prioritizes (1) Typhoon OCR (Thai specialized), (2) PaddleOCR, then (3) Tesseract.
 - [ ] **EXTR-05**: OCR precisely captures numerical party/candidate vote counts from the formatted grid.
 - [ ] **DATA-01**: Data cleaning logic handles common OCR misinterpretations.
 - [ ] **DATA-02**: Validation logic asserts `sum(candidate votes) == total valid votes`.
@@ -49,10 +49,10 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| EXTR-01 | Phase 1 | Pending |
-| EXTR-02 | Phase 1 | Pending |
-| EXTR-03 | Phase 1 | Pending |
-| EXTR-04 | Phase 1 | Pending |
+| EXTR-01 | Phase 1 | Complete |
+| EXTR-02 | Phase 1 | Complete |
+| EXTR-03 | Phase 1 | Complete |
+| EXTR-04 | Phase 1 | Complete |
 | EXTR-05 | Phase 1 | Pending |
 | DATA-01 | Phase 2 | Pending |
 | DATA-02 | Phase 2 | Pending |
