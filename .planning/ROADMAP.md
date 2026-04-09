@@ -34,7 +34,7 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 02-01: Scale extraction mechanism and robust bounding box logic.
+- [x] 02-01: Scale extraction mechanism and robust bounding box logic.
 - [ ] 02-02: Implement cleaning rules and save export file.
 
 ### Phase 3: Exploratory Analysis & Dashboard
@@ -59,5 +59,5 @@ Phases execute in numeric order: 1 → 2 → 3
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Prototyping Data Prep Pipeline | 1/1 | Complete   | 2026-04-09 |
-| 2. Scaled Extraction & Validation | 0/2 | Not started | - |
+| 2. Scaled Extraction & Validation | 1/2 | In Progress|  |
 | 3. Exploratory Analysis & Dashboard | 0/3 | Not started | - |
