@@ -13,8 +13,8 @@
 - [x] **EXTR-04**: OCR engine selection prioritizes (1) Typhoon OCR (Thai specialized), (2) PaddleOCR, then (3) Tesseract.
 - [x] **EXTR-05**: OCR precisely captures numerical party/candidate vote counts from the formatted grid.
 - [x] **DATA-01**: Data cleaning logic handles common OCR misinterpretations.
-- [ ] **DATA-02**: Validation logic asserts `sum(candidate votes) == total valid votes`.
-- [ ] **DATA-03**: Final output is structured as `election_structured_data.csv`.
+- [x] **DATA-02**: Validation logic asserts `sum(candidate votes) == total valid votes`.
+- [x] **DATA-03**: Final output is structured as `election_structured_data.csv`.
 
 ### Data Analysis Pipeline (Components 2 & 3 & 4)
 
@@ -53,10 +53,10 @@
 | EXTR-02 | Phase 1 | Complete |
 | EXTR-03 | Phase 1 | Complete |
 | EXTR-04 | Phase 1 | Complete |
-| EXTR-05 | Phase 1 | Complete |
+| EXTR-05 | Phase 2 | Complete |
 | DATA-01 | Phase 2 | Complete |
-| DATA-02 | Phase 2 | Pending |
-| DATA-03 | Phase 2 | Pending |
+| DATA-02 | Phase 2 | Complete |
+| DATA-03 | Phase 2 | Complete |
 | ANLY-01 | Phase 3 | Pending |
 | ANLY-02 | Phase 3 | Pending |
 | ANLY-03 | Phase 3 | Pending |
