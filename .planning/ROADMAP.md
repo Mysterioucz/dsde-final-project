@@ -6,7 +6,7 @@ This roadmap defines the sequential progression from setting up the initial OCR 
 
 ## Phases
 
-- [ ] **Phase 1: Prototyping Data Prep Pipeline** - Setup notebook environment and prototype OCR extraction on sample PDFs.
+- [x] **Phase 1: Prototyping Data Prep Pipeline** - Setup notebook environment and prototype OCR extraction on sample PDFs. (completed 2026-04-09)
 - [ ] **Phase 2: Scaled Extraction & Validation** - Automate processing across all stations, validate data consistency, and export CSV.
 - [ ] **Phase 3: Exploratory Analysis & Dashboard** - Generate insights (geo-anomalies, political dynasty shifts, past references) via analytical visuals.
 
@@ -22,7 +22,7 @@ This roadmap defines the sequential progression from setting up the initial OCR 
 **Plans**: 1 plan
 
 Plans:
-- [ ] 01-01: Prototyping OCR extraction and pdf2image loading.
+- [x] 01-01: Prototyping OCR extraction and pdf2image loading.
 
 ### Phase 2: Scaled Extraction & Validation
 **Goal**: Execute the OCR across all PDFs for Uthai Thani 2, clean common anomalies, and validate against logical vote sum totals. Export structured dataset.
@@ -58,6 +58,6 @@ Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Prototyping Data Prep Pipeline | 0/1 | Not started | - |
+| 1. Prototyping Data Prep Pipeline | 1/1 | Complete   | 2026-04-09 |
 | 2. Scaled Extraction & Validation | 0/2 | Not started | - |
 | 3. Exploratory Analysis & Dashboard | 0/3 | Not started | - |
