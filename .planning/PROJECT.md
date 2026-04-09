@@ -16,12 +16,18 @@ Accurately transforming unstructured, high-volume official PDF election forms in
 
 - ✓ Source election data is locally available in nested directories as PDF files.
 
+### Validated
+
+<!-- Shipped and confirmed valuable. -->
+
+- ✓ Source election data is locally available in nested directories as PDF files.
+- ✓ Build Data Extraction Pipeline (Component 1) — Validated in Phase 1: Prototyping Data Prep Pipeline (Typhoon OCR confirmed for Thai text)
+- ✓ Implement Data Cleaning and Validation logic — Validated in Phase 2: Scaled Extraction & Validation (retry, in-memory mismatch tracking, CSV export to election_structured_data.csv)
+
 ### Active
 
 <!-- Current scope. Building toward these. -->
 
-- [ ] Build Data Extraction Pipeline (Component 1) to convert Uthai Thani 2 district PDFs to structured text using OCR (e.g., Tesseract or EasyOCR).
-- [ ] Implement Data Cleaning and Validation logic to handle OCR errors and format inconsistencies.
 - [ ] Develop Data Science Analysis Notebook (Component 2) to explore patterns and trends from the parsed dataset.
 - [ ] Produce analytical visual dashboard components (Component 3) and summarize insights (Component 4).
 
@@ -73,4 +79,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-08 after project initialization*
+*Last updated: 2026-04-09 after Phase 2 completion — scaled extraction pipeline and CSV export ready*
