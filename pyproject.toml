@@ -92,6 +92,7 @@ dependencies = [
     "more-itertools==11.0.1",
     "multidict==6.7.1",
     "mypy-extensions==1.1.0",
+    "nbconvert>=7.17.1",
     "nest-asyncio==1.6.0",
     "networkx==3.6.1",
     "nibabel==5.4.2",
