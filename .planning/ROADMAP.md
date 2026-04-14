@@ -51,13 +51,23 @@ Plans:
 - [ ] 03-02: Advanced analysis (vote buying outliers, vote banking ratios, party sizes).
 - [ ] 03-03: External integration contexts (dynasty trends, geospatial mapping, Google/News trends).
 
+### Phase 4: Wikipedia Scraping
+**Goal**: Scrape historical party-level election results (seats, votes, vote_pct) from English Wikipedia for Thai general elections 2001–2026 and export a long-format CSV to data/wikipedia/ for use in Phase 3 trend analysis.
+**Requirements**: WIKI-01, WIKI-02, WIKI-03, WIKI-04, WIKI-05, WIKI-06, WIKI-07
+**Depends on**: Phase 3 (provides reference data for ANLY-02)
+**Plans**: 1 plan
+
+Plans:
+- [ ] 04-01-PLAN.md — Rewrite 03_wikipedia_scrape.ipynb with requests+BeautifulSoup scraper; export wikipedia_election_results.csv
+
 ## Progress
 
 **Execution Order:**
-Phases execute in numeric order: 1 → 2 → 3
+Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Prototyping Data Prep Pipeline | 1/1 | Complete   | 2026-04-09 |
 | 2. Scaled Extraction & Validation | 2/2 | Complete   | 2026-04-09 |
 | 3. Exploratory Analysis & Dashboard | 0/3 | Not started | - |
+| 4. Wikipedia Scraping | 0/1 | Not started | - |
