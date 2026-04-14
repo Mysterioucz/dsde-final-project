@@ -58,7 +58,7 @@ Plans:
 **Plans**: 1 plan
 
 Plans:
-- [ ] 04-01-PLAN.md — Rewrite 03_wikipedia_scrape.ipynb with requests+BeautifulSoup scraper; export wikipedia_election_results.csv
+- [x] 04-01-PLAN.md — Rewrite 03_wikipedia_scrape.ipynb with requests+BeautifulSoup scraper; export wikipedia_election_results.csv
 
 ## Progress
 
@@ -70,4 +70,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | 1. Prototyping Data Prep Pipeline | 1/1 | Complete   | 2026-04-09 |
 | 2. Scaled Extraction & Validation | 2/2 | Complete   | 2026-04-09 |
 | 3. Exploratory Analysis & Dashboard | 0/3 | Not started | - |
-| 4. Wikipedia Scraping | 0/1 | Not started | - |
+| 4. Wikipedia Scraping | 1/1 | Complete   | 2026-04-14 |
