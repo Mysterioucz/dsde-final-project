@@ -69,12 +69,20 @@
 | ANLY-10 | Phase 3 | Pending |
 | ANLY-11 | Phase 3 | Pending |
 | DASH-01 | Phase 3 | Pending |
+| WIKI-01 | Phase 4 | Complete |
+| WIKI-02 | Phase 4 | Complete |
+| WIKI-03 | Phase 4 | Complete |
+| WIKI-04 | Phase 4 | Complete |
+| WIKI-05 | Phase 4 | Complete |
+| WIKI-06 | Phase 4 | Complete |
+| WIKI-07 | Phase 4 | Complete |
 
 **Coverage:**
 - v1 requirements: 20 total
-- Mapped to phases: 20
+- v1 wiki requirements: 7 total
+- Mapped to phases: 27
 - Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-04-09*
-*Last updated: 2026-04-09 after user refinement*
+*Last updated: 2026-04-14 after Phase 4 completion (WIKI-01–07 added)*
